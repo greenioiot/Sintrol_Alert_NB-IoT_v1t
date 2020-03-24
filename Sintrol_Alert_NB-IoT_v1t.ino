@@ -30,9 +30,21 @@ int SlaveCnt = 0;
 #define CHANNEL 3
 #define PRINTSCANRESULTS 0
 
+///thingcontrol.io v1.5 24vDC on Shield Relay
+const int GRE_PIN = 12; // ควบคุม Relay ตัวที่ 1 ต่อขา7
+const int ORG_PIN = 13; // ควบคุม Relay ตัวที่ 2 ต่อขา6
+const int RED_PIN = 15; // ควบคุม Relay ตัวที่ 3 ต่อขา5
+const int TBD = 2; // ควบคุม Relay ตัวที่ 4 ต่อขา4
+
+
+///thingcontrol.io v1.0 5vDC logic on board
+/*
 const int RED_PIN =  4;// RED LED
 const int ORG_PIN = 15;// ORANGE LED
 const int GRE_PIN = 33;// GREEN LED
+*/
+//end io
+
  
 String deviceToken = "Vi93LtG0OwpEEuxfK9pN";
 String serverIP = "103.27.203.83"; // Your Server IP;
